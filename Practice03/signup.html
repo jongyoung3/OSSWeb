@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+</head>
+<body>
+    <label for="id">Account ID:</label><br>
+    <input type="text" id="id"><br>
+    <label for="pw">Password:</label><br>
+    <input type="password" id="pw"><br><br>
+
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname"><br><br>
+
+        <label for="gender">Gender</label><br>
+        <div id="gender">
+            <input type="radio" id="male" name="gdr">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gdr">
+            <label for="female">Female</label>
+        </div>
+    </fieldset><br>
+
+    <fieldset>
+        <legend>Current position</legend>
+
+        <input type=checkbox id=front>
+        <label for=front>Front-end developer</label><br>
+        <input type=checkbox id=back>
+        <label for=back>Back-end developer</label><br>
+        <input type=checkbox id=infra>
+        <label for=infra>Infrastructure developer</label>
+    
+    </fieldset><br>
+    
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+    <input type="button" value="Cancel"><br><br>
+
+    <a href="home.html">Go to home</a>
+</body>
+</html>
